@@ -50,7 +50,7 @@
 <div class="dashboard-content">
   <div class="head clearfix">
     <h5>ACCOUNT POINTS</h5>
-    <span><strong>$1.50/100</strong> | <strong id="userPoint"></strong> ≈ <strong id="userMoney"></strong>$</span>
+    <span><strong>$1/100</strong> | <strong id="userPoint"></strong> ≈ <strong id="userMoney"></strong>$</span>
   </div>
   <div class="content">
     <h6>Account benefits:</h6>
@@ -76,7 +76,7 @@ $.getJSON(point_url + "?userId=121809", function(data) {
   var userPoint = (Math.round(12807.831198 - data.point));
   var userMoney = "N/A"
    
-    userMoney = (userPoint)*1.5/100;
+    userMoney = (userPoint)*1/100;
   
   $('#userPoint').text(userPoint);
   $('#userMoney').text(userMoney);
