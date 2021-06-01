@@ -47,36 +47,6 @@
 <script src="https://js.pusher.com/7.0/pusher.min.js"></script>
 
 
-            <div class="dashboard-content">
-  <div class="head clearfix">
-    <h5>ACCOUNT STATUS</h5>
-    <span>
-       
-        <strong>$2.5K+</strong> SPENT | ELITE ACCOUNT
-          </span>
-  </div>
-  <div class="content">
-    <h6>Account benefits:</h6>
-    <ul class="button">
-      <li>24/7 TICKETS' SUPPORT</li>
-      <li>5% PAYMENTS BONUS**</li>
-      <li >500$ MONTHLY LOTTERY</li>
-      <li >FREE SMM PANEL****</li>
-      <li class="inactive">PRIORITY TICKET SUPPORT</li>
-      <li class="inactive">CUSTOM SERVICES</li>
-      <li class="inactive">EARLY NOTIFICATION ON NEW SERVICES</li>
-      <li class="inactive">SUPPORT HANDLED BY THE ADMINS</li>
-    </ul>
-    <h6>NOTE</h6>
-    <p>
-    * = You may purchase a VIP status for a month from our services under the VIP section.<br>
-    ** = 5% Bonus on Payments made with Perfect Money, Western Union, Bitcoins, Altcoins or Payoneer.<br>
-    *** = Each month we will pick 1 random Frequent, Elite, VIP or Master user to win $500 to be used on the panel!<br>
-    **** = You will get a FREE SMM Panel like ours with a FREE domain aswell!
-    </p>
-  </div>
-</div>
-
 <div class="dashboard-content">
   <div class="head clearfix">
     <h5>ACCOUNT POINTS</h5>
@@ -95,28 +65,14 @@
     <p>
     You earn points by ordering. Each 1$ spent by you = 1 point.<br>
     Each 100 points = 1$ up to 2$ depending on your Account status.<br>
-    You cannot redeem less than 100 points.<br>
-    To convert your point into funds, you must open a ticket and choose the subject "Points" and write down "Redeem All".<br>
-    To prevent spam, it will take a minimum of 3 days to convert your points into funds, and up to 7 days!
     </p>
-  </div>
-</div>
-
-<div class="dashboard-content">
-  <div class="head clearfix">
-    <h5>ACCOUNT SPENDING</h5>
-    <span><strong>$12807.831198</strong></span>
-  </div>
-  <div class="content">
-    <h6>NOTE</h6>
-    <p>Here you can see how much you have spent your whole life on JAP, basically how much you love JAP. We love you too!</p>
   </div>
 </div>
 
 <script>
 var point_url="https://script.google.com/macros/s/AKfycbwCfDEt24VyDXzHQ9UbjCMuIvL33F4_2nOpprl39B6d9DSKYy0/exec";
 
-$.getJSON(point_url + "?userId=121808", function(data) {
+$.getJSON(point_url + "?userId=121809", function(data) {
   var userPoint = (Math.round(12807.831198 - data.point));
   var userMoney = "N/A"
    
